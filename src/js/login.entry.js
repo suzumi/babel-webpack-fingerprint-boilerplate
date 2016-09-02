@@ -1,7 +1,7 @@
 import 'babel-polyfill';
 import { sleep } from './common';
 
-class MyPage {
+class Login {
 
 	start() {
 		(async () => {
@@ -14,7 +14,7 @@ class MyPage {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-	const myPage = new MyPage();
-	myPage.start();
+	const login = new Login();
+	login.start();
 });
 
