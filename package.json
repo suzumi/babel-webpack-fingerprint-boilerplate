@@ -16,7 +16,7 @@
   },
   "scripts": {
     "clean": "rm -rf dist/*",
-    "build": "rm -rf dist/* && webpack --devtool source-map",
+    "build": "rm -rf dist/* && webpack --devtool source-map --verbose",
     "prod": "rm -rf dist/* && webpack --release"
   }
 }
