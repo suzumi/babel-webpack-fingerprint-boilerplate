@@ -3,13 +3,11 @@ import { sleep } from './common';
 
 class Login {
 
-	start() {
-		(async () => {
-			console.log('start');
-			await sleep(2000);
-			console.log('This page is login');
-			console.log('end');
-		})();
+	async start() {
+		console.log('start');
+		await sleep(2000);
+		console.log('This page is login');
+		console.log('end');
 	}
 }
 
